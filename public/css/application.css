@@ -78,18 +78,17 @@ nav {
 }
 
 .logo, .search_bar, .dm, .settings, .new_tweet {
-	display: inline-block;
+	display: inline;
 	float: right;
-	font-family: Arial;
 }
 
 .icons {
-	max-height: 14px;
+	max-height: 18px;
 	margin-right: 3px;
 }
 
 #twitter_icon {
-	margin-right: 300px;
+	margin-right: 0px;
 }
 
 body {
