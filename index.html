@@ -3,6 +3,7 @@
 <head>
   <link rel="stylesheet" type="text/css" href="public/css/application.css">
   <link rel="stylesheet" type="text/css" href="public/css/responsive.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <title>Twitter page</title>
 </head>
 <body>
@@ -11,19 +12,18 @@
 			<div id = "nav_inner">
 				<div class ="navbar_links">
 					<ul>
-						<li><a href="#"><img class="icons" src="public/images/house.png">Home</a></li>
-						<li><a href="#"><img class="icons" src="public/images/bulb.png">Notifications</a></li>
-						<li><a href="#"><img class="icons" src="public/images/cloud.png">Discover</a></li>
-						<li><a href="#"><img class="icons" src="public/images/person.png">Me</a></li>
+						<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+						<li><a href="#"><i class="fa fa-bell"></i> Notifications</a></li>
+						<li><a href="#"><i class="fa fa-location-arrow"></i> Discover</a></li>
+						<li><a href="#"><i class="fa fa-user"></i> Me</a></li>
 					</ul>
 				</div>
-
 				<div class ="account_links">
 					<ul>	
-						<li><a href="#"><img class="icons" id="twitter_icon" src="public/images/settings.png"></a></li>
-						<li><a href="#"><img class="icons" id="twitter_icon" src="public/images/mail.png"></a></li>
+						<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+						<li><a href="#"><i class="fa fa-gear"></i></a></li>
 						<li><form><input type="text" placeholder="search dat shit..."></form></li>
-						<li><a href="#"><img class="icons" id="twitter_icon" src="public/images/twitter.png"></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -37,6 +37,13 @@
 				<div class='left'>
 					<div class='profile'>
 						<div class="avatar_background">
+							<div id="avatar">
+								<img src = "public/images/elvis.jpeg">
+							</div>
+							<div id="handle">
+								<p class="account_name">Elvis</p>
+								<p class="handle_id">@heatlhyElvis</p>
+							</div>
 						</div>
 						<div class="stats">
 							<table>
@@ -52,6 +59,7 @@
 							</table>
 						</div>
 						<div class="compose_tweet">
+							<form><input type="text" placeholder = "Compose new tweet.."></form>
 						</div>
 					</div>
 					<div class='recommendations'>
@@ -71,7 +79,6 @@
 							<div class="author"></div>
 							<div class="tweet_body">
 								<div class="tweet_left">
-									<img src="public/images/user.gif">
 								</div>
 								<div class="tweet_right">
 									<div class="tweet_action"></div>
@@ -86,6 +93,6 @@
 	</div>
 
 	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-  <script src="public/javascript/script.js"></script>
+  	<script src="public/javascript/script.js"></script>
 </body>
 </html>
