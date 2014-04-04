@@ -1,0 +1,87 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+	width: 100%;
+	padding-left:15%;
+	padding-right: 15%;
+	
+
+}
+
+#nav_inner {
+	background-color: white;
+	width: 100%;
+	height: 40px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.navbar_links, .account_links {
+	text-align: center;
+}
+
+.navbar_links li, .account_links li {
+	font-family: Arial;
+	font-size: 13px;
+	margin-right: 3%;
+}
+
+.navbar_links li {
+	float: left;
+}
+
+.account_links li {
+	float: right;
+}
+
+.navbar_links a, .account_links a {
+	display: table-cell;
+	height: 40px;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #828282;
+	font-weight: 700;
+}
+
+.navbar_links a:hover {
+	color: #c0392b;
+}
+
+.logo, .search_bar, .dm, .settings, .new_tweet {
+	display: inline-block;
+	float: right;
+	font-family: Arial;
+}
+
+body {
+	background-color: #AEEEEE;
+}
+
+.left {
+	float: left;
+	width: 30%;
+	background-color: red;
+	padding: 20px;
+}
+
+.profile, .recommendations, .trending, .about-twitter, .twitter_feed {
+	width: 100%;
+	height: 200px; /*when we have content this goes "auto"*/
+	background-color: white;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.right {
+	float: right;
+	width: 70%;
+	background-color: orange;
+	padding: 20px;
+	padding-left: 0px;
+}
