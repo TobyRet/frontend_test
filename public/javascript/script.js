@@ -1,11 +1,7 @@
-$('#tweet_input').focus(function()
-{
-    /*to make this flexible, I'm storing the current width in an attribute*/
-    $(this).attr('data-default', $(this).height());
-    $(this).animate({ height: 100 }, 'fast');
-}).blur(function()
-{
-    /* lookup the original height */
-    var h = $(this).attr('data-default');
-    $(this).animate({ height: h }, 'fast');
+$(".compose_tweet").focusin(function() {
+    $(".compose_extra_buttons").show();
+    $("#tweet_input").animate({ height: 100 }, 'fast');
+}).focusout(function () {
+    $(".compose_extra_buttons").hide();
+    $("#tweet_input").animate({ height: 30 }, 'fast');
 });

@@ -156,8 +156,8 @@ body {
 }
 
 .avatar_background {
-	background-image: url("../images/robot.jpg");
-	height: 150px; 
+	background-image: url("../images/elvisgf.gif");
+	height: 100%; 
 	overflow: hidden;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -192,6 +192,39 @@ td {
 	border-bottom-left-radius: 6px;
 	border-bottom-right-radius: 6px;
 }
+
+.compose_extra_buttons {
+	display: none;
+	margin: 15px 5px;
+	padding-left: 5px 7px;
+}
+
+.compose_extra_buttons a {
+	color: #7f8c8d;
+	border: 1px solid #bdc3c7;
+	border-radius: 3px;
+	padding: 5px 7px;
+}
+
+.compose_extra_buttons a:hover{
+	border: 1px solid #7f8c8d;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.compose_tweet form input:focus + .compose_extra_buttons { 
+	display: block; 
+}
+
+.fa-map-marker {
+	color: #7f8c8d;
+	margin-left: 30px;
+}
+
+.character_count {
+	font-family: Arial;
+}
+
 
 #tweet_input {
 	width: 100%;
