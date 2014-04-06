@@ -122,7 +122,8 @@ body {
 	height: auto;
 	background-color: white;
 	margin-bottom: 10px;
-	border-radius: 10px;
+	padding: 10px;
+	border-radius: 6px;
 }
 
 .profile {
@@ -180,6 +181,8 @@ td {
 .compose_tweet {
 	padding: 10px;
 	background-color: #bdc3c7;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 
 .compose_tweet input {
@@ -191,7 +194,8 @@ td {
 }
 
 .avatar_background {
-	position: relative;
+	width: 100%;
+	text-align: center;
 }
 
 
@@ -202,31 +206,29 @@ td {
 
 .avatar_image {
 	display: block;
+	margin-bottom: 10px;
 }
 
 .avatar_image img {
-	width: auto;
 	height: 50px;
 	border: 3px solid white;
-	position: absolute;
-	display: block;
 	border-radius: 3px;
-	left: 120px;
 }
 
 .handle_id {
 	color: white;
 	font-family: Arial;
 	display: block;
-	position: absolute;
+	margin-bottom: 5px;
 }
 
 .account_name{
 	font-size: 25px;
+	font-family: Arial;
 	font-weight: 600;
 	color: white;
 	display: block;
-	position: absolute;
+	margin-bottom: 5px;
 }
 
 /* Left hand content ends ------------------------------------------------- */
