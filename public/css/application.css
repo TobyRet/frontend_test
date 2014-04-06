@@ -231,6 +231,20 @@ td {
 	margin-bottom: 5px;
 }
 
+.about-twitter li {
+	display: inline-block;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.about-twitter a {
+	text-decoration: none;
+	color: #95a5a6;
+	margin-right: 5px;
+	line-height: 1.3em;
+}
+
+
 /* Left hand content ends ------------------------------------------------- */
 
 /* Right hand content begins ------------------------------------------------- */
