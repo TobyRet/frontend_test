@@ -223,6 +223,17 @@ td {
 
 .character_count {
 	font-family: Arial;
+	font-size: 13px;
+}
+
+.tweet_button {
+	font-family: Arial;
+	font-size: 13px;
+	background: #c0392b;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	margin-left: 100px;
 }
 
 
@@ -311,6 +322,13 @@ td {
 	border-bottom: 1px solid #bdc3c7;
 }
 
+.hidden_tweet {
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid #bdc3c7;
+	display: none;
+}
+
 .tweet_body {
 	padding: 15px;
 	margin-bottom: 15px;
@@ -394,6 +412,11 @@ td {
 	display: inline-block;
 	float: right;
 	margin-left: 10px;
+}
+
+.loader {
+	display: none;
+	text-align: center;
 }
 
 
